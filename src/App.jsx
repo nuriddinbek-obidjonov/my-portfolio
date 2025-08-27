@@ -1,0 +1,19 @@
+import React from "react";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+
+function App() {
+  return (
+    <div className="container mx-auto max-w-7xl">
+      <Navbar />
+      <Hero />
+      <section className="h-screen"></section>
+      <section className="h-screen"></section>
+      <section className="h-screen"></section>
+      <section className="h-screen"></section>
+      <section className="h-screen"></section>
+    </div>
+  );
+}
+
+export default App;
