@@ -1,8 +1,8 @@
 "use client";
 import { useScroll, useTransform, motion } from "motion/react";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export const Timeline = ({ data }) => {
+const Timeline = ({ data }) => {
   const ref = useRef(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);
@@ -87,3 +87,5 @@ export const Timeline = ({ data }) => {
     </div>
   );
 };
+
+export default Timeline;
