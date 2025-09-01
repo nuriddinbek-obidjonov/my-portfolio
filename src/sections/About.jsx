@@ -22,10 +22,7 @@ const About = () => {
             <p className="subtext">
               Software professional with 1.5+ year experience, a strong focus on
               customers, excellent communication abilities, and technical
-              platform competence. Builds extremely functional, stable, and
-              simple applications while understanding, and meeting employer and
-              customer requirements. Skilled as a hands-on developer and leads
-              software team activities.
+              platform competence.
             </p>
             <div className="absolute inset-x-0 bg-gradient-to-t from-indigo h-1/2 sm:h-1/3 pointer-events-none"></div>
           </div>
