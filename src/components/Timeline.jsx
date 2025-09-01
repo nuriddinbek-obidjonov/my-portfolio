@@ -25,13 +25,10 @@ const Timeline = ({ data }) => {
   return (
     <div className="c-space section-spacing" ref={containerRef}>
       <h2 className="text-heading">My Work Experience</h2>
-      <div className="relative pb-20">
-        <h2 className="mb-4 max-w-4xl text-black dark:text-white text-lg md:text-4xl">
-          Changelog from my journey
-        </h2>
+      <div className="relative mt-5 pb-10">
         <p className="max-w-sm text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+          I&apos;ve been working on Front-end Development for the past 2 years.
+          Here&apos;s a timeline of my journey.
         </p>
       </div>
       <div ref={ref} className="relative mx-auto pb-20 max-w-7xl">

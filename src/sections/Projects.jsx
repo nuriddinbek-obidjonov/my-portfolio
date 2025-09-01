@@ -18,7 +18,7 @@ function Projects() {
       onMouseMove={handleMouseMove}
       className="relative c-space section-spacing">
       <h2 className="text-heading">My Selected Projects</h2>
-      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
+      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 w-full h-[1px]" />
       {myProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
@@ -26,7 +26,7 @@ function Projects() {
         <motion.img
           src={preview}
           alt=""
-          className="fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80"
+          className="top-0 left-0 z-49 fixed shadow-lg rounded-lg w-80 h-56 object-cover pointer-events-none"
           style={{ x: springX, y: springY }}
         />
       )}

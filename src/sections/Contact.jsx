@@ -59,7 +59,9 @@ function Contact() {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section
+      id="contact"
+      className="relative flex items-center c-space section-spacing">
       <Particles
         className="-z-50 absolute inset-0"
         quantity={100}
