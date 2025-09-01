@@ -114,7 +114,7 @@ const About = () => {
               allows me to build rebust and scalable applications
             </p>
           </div>
-          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full md:scale-125 start-[50%]">
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full md:scale-125 start-[65%] md:start-[50%]">
             <FrameWorks />
           </div>
         </div>
