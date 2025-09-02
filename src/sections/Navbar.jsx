@@ -1,34 +1,34 @@
 import React from "react";
 import { motion } from "motion/react";
 
-function Navigation() {
+const Navigation = ({ isOpen, setIsOpen }) => {
   return (
     <ul className="nav-ul">
-      <li className="nav-li">
+      <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="/">
           Home
         </a>
       </li>
-      <li className="nav-li">
+      <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="#about">
           About
         </a>
       </li>
-      <li className="nav-li">
+      <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="#work">
           Work
         </a>
       </li>
-      <li className="nav-li">
+      <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="#contact">
           Contact
         </a>
       </li>
     </ul>
   );
-}
+};
 
-function Navbar() {
+const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div className="z-50 fixed inset-x-0 bg-primary/40 backdrop-blur-lg w-full">
@@ -61,12 +61,12 @@ function Navbar() {
           style={{ maxHeight: "100vh" }}
           transition={{ duration: 1 }}>
           <nav className="pb-5">
-            <Navigation />
+            <Navigation isOpen={isOpen} setIsOpen={setIsOpen} />
           </nav>
         </motion.div>
       )}
     </div>
   );
-}
+};
 
 export default Navbar;

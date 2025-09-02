@@ -1,7 +1,6 @@
 import { mySocials } from "../constants";
 
 const Footer = () => {
-  console.log(mySocials);
   return (
     <section className="flex flex-wrap justify-between items-center gap-5 pb-3 text-neutral-400 text-sm c-space">
       <div className="bg-gradient-to-r from-transparent via-neutral-400 to-transparent w-full h-[1px]" />
