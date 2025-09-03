@@ -243,9 +243,18 @@ export const mySocials = [
 
 export const experiences = [
   {
+    title: "Freelance Developer",
+    job: "Self-Employed",
+    date: "2025/07-Present",
+    contents: [
+      "- Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+      "- Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+    ],
+  },
+  {
     title: "Software Developer",
     job: "LIMSA",
-    date: "2025/01-present",
+    date: "2025/01-2025/06",
     contents: [
       "- Efficiently managing team, making sure tasks need be done on time on Trello",
       "- Adding Telegram Bots and EmailJS to websites to provide real time communications with clients",

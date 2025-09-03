@@ -50,7 +50,7 @@ const Timeline = ({ data }) => {
             </div>
 
             {/* Mobile view */}
-            <div className="relative pr-4 pl-20 md:pl-4 w-full">
+            <div className="relative pr-4 pl-10 md:pl-4 w-full">
               <div className="md:hidden block mb-4 font-bold text-neutral-300 text-4xl text-left">
                 <h3>{item.date}</h3>
                 <h3>{item.job}</h3>
