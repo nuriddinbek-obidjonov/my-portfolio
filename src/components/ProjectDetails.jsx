@@ -10,26 +10,26 @@ function ProjectDetails({
   closeModel,
 }) {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
+    <div className="z-50 fixed inset-0 flex justify-center items-center backdrop-blur-sm w-full h-full overflow-hidden">
       <motion.div
-        className="relative h-full max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        className="relative bg-gradient-to-l from-midnight to-navy shadow-sm border border-white/10 rounded-2xl max-w-2xl h-full"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}>
         <button
           onClick={closeModel}
-          className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hovet:bg-gray-500">
+          className="top-5 right-5 absolute bg-midnight hovet:bg-gray-500 p-2 rounded-sm">
           <img src="assets/close.svg" alt="close" className="w-6 h-6" />
         </button>
-        <img src={image} alt={title} className="w-full rounded-t-2xl" />
+        <img src={image} alt={title} className="rounded-t-2xl w-full" />
         <div className="p-5">
-          <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
+          <h5 className="mb-2 font-bold text-white text-2xl">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
           {subDescription.map((item, index) => (
             <p key={index} className="mb-3 font-normal text-neutral-400">
               {item}
             </p>
           ))}
-          <div className="flex items-center justify-between mt-4">
+          <div className="flex justify-between items-center mt-4">
             <div className="flex gap-3">
               {tags.map((tag) => (
                 <img
@@ -42,8 +42,9 @@ function ProjectDetails({
             </div>
             <a
               href={href}
-              className="inline-flex cursor-pointer items-center gap-1 text-sm hover-animation font-medium">
-              View Project <img src="assets/arrow-up.svg" className="size-4" />
+              className="inline-flex items-center gap-1 font-medium text-sm cursor-pointer hover-animation">
+              View Project{" "}
+              <img src="assets/arrow-up.svg" className="size-4" alt="arrow" />
             </a>
           </div>
         </div>
