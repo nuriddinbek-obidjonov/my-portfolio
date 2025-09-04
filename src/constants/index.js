@@ -10,7 +10,7 @@ export const myProjects = [
       "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
       "Added filts to sort cars by their types, price, brand and so on...",
     ],
-    href: "",
+    href: "https://rent-car-dubai.netlify.app/",
     logo: "",
     image: "/assets/projects/rent-cars.png",
     tags: [
@@ -46,7 +46,7 @@ export const myProjects = [
       "Used i18next to make this platform multilingual and added three languages - english, russian, uzbek",
       "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
     ],
-    href: "",
+    href: "https://atabaev.netlify.app/",
     logo: "",
     image: "/assets/projects/atabaev-building.png",
     tags: [
@@ -85,7 +85,7 @@ export const myProjects = [
       "Implemented CSS mensary gridlines and inserted many games",
       "Added Google Dinasour, X or O, Tennis, Drum-kit, Dice Stones",
     ],
-    href: "",
+    href: "https://gamy-kids.netlify.app/",
     logo: "",
     image: "/assets/projects/gamy-kids.png",
     tags: [
@@ -123,7 +123,7 @@ export const myProjects = [
       "Created suggestion to offer most relevant or popular products to clients",
       "Used TailwindCSS to increase this site's SEO and maintain smooth operation",
     ],
-    href: "",
+    href: "https://bukhara-fabric.netlify.app/",
     logo: "",
     image: "/assets/projects/bukhara-fabric.png",
     tags: [
@@ -161,7 +161,7 @@ export const myProjects = [
       "Optimized SEO and page speed using Bootstrap for fast builds.",
       "Implemented custom widgets and plugin compatibility for extended functionality.",
     ],
-    href: "",
+    href: "https://nuriddinbek-hoobank.netlify.app/",
     logo: "",
     image: "/assets/projects/hoo-bank.png",
     tags: [
@@ -198,7 +198,7 @@ export const myProjects = [
       "Added interactive and user-friendly interface to attracte satisfy clients",
       "Used Tailwindcss to give flawless and smooth motion to site and increase its SEO",
     ],
-    href: "",
+    href: "https://udevs-murex.vercel.app/",
     logo: "",
     image: "/assets/projects/udevs.png",
     tags: [
