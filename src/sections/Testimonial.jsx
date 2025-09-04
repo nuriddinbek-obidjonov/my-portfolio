@@ -22,7 +22,9 @@ const ReviewCard = ({ img, name, username, body }) => {
           <figcaption className="font-medium text-white text-sm">
             {name}
           </figcaption>
-          <p className="font-medium text-white/40 text-xs">{username}</p>
+          <p className="font-medium text-white/40 text-xs">
+            <a href={`https://t.me/${username}`}>@{username}</a>
+          </p>
         </div>
       </div>
       <blockquote className="mt-2 text-sm">{body}</blockquote>
