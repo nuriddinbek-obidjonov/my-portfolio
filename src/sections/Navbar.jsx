@@ -1,28 +1,34 @@
 import React from "react";
 import { motion } from "motion/react";
+import Languages from "../components/Languages";
+import { useTranslation } from "react-i18next";
 
 const Navigation = ({ isOpen, setIsOpen }) => {
+  const [t, i18n] = useTranslation();
   return (
     <ul className="nav-ul">
       <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="/">
-          Home
+          {t("navbar.home")}
         </a>
       </li>
       <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="#about">
-          About
+          {t("navbar.about")}
         </a>
       </li>
       <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="#work">
-          Work
+          {t("navbar.work")}
         </a>
       </li>
       <li className="nav-li" onClick={() => setIsOpen(!isOpen)}>
         <a className="nav-link" href="#contact">
-          Contact
+          {t("navbar.contact")}
         </a>
+      </li>
+      <li className="nav-li">
+        <Languages />
       </li>
     </ul>
   );
