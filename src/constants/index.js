@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 export const myProjects = [
   {
     id: 1,
@@ -244,47 +246,48 @@ export const mySocials = [
   },
 ];
 
-export const experiences = [
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025/07-Present",
-    contents: [
-      "- Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "- Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-  {
-    title: "Software Developer",
-    job: "LIMSA",
-    date: "2025/01-2025/06",
-    contents: [
-      "- Efficiently managing team, making sure tasks need be done on time on Trello",
-      "- Adding Telegram Bots and EmailJS to websites to provide real time communications with clients",
-      "- Using Three.js, antDesign, Swiper, Aos libraries to make sites flexible and smooth for better UX design",
-      "- Using i18next libraries effectively to create Multilingual sites",
-      "- Building responsive, secure and Rest-full API based websites with Tailwind, .env and React JS",
-      "- Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "- Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "- Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "- Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Front-end Developer",
-    job: "ITA",
-    date: "2024/03-2024/12",
-    contents: [
-      "- Creating sophisticated sites, small size websites and making it exclusively fast",
-      "- Making strong algorithm to loose repetition of code and making sites fast and light ",
-      "- Raising performance and SEO to 90% – 100% and hoisting up sites to the top on Google search",
-      "- Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-];
+export const createExperiences = () => {
+  const [t, i18n] = useTranslation();
+  const experiences = [
+    {
+      title: "Freelance Developer",
+      job: "Self-Employed",
+      date: "2025/07-Present",
+      contents: [t("experiences.exp1.1"), t("experiences.exp1.2")],
+    },
+    {
+      title: "Software Developer",
+      job: "LIMSA",
+      date: "2025/01-2025/06",
+      contents: [
+        t("experiences.exp2.1"),
+        t("experiences.exp2.2"),
+        t("experiences.exp2.3"),
+        t("experiences.exp2.4"),
+        t("experiences.exp2.5"),
+        t("experiences.exp2.6"),
+        t("experiences.exp2.7"),
+        t("experiences.exp2.8"),
+        t("experiences.exp2.9"),
+      ],
+    },
+    {
+      title: "Front-end Developer",
+      job: "ITA",
+      date: "2024/03-2024/12",
+      contents: [
+        t("experiences.exp3.1"),
+        t("experiences.exp3.2"),
+        t("experiences.exp3.3"),
+        t("experiences.exp3.4"),
+        t("experiences.exp3.5"),
+        t("experiences.exp3.6"),
+        t("experiences.exp3.7"),
+      ],
+    },
+  ];
+  return experiences;
+};
 
 export const reviews = [
   {

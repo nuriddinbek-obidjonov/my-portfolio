@@ -1,8 +1,10 @@
 "use client";
 import { useScroll, useTransform, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Timeline = ({ data }) => {
+  const [t, i18n] = useTranslation();
   const ref = useRef(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);
@@ -24,11 +26,10 @@ const Timeline = ({ data }) => {
 
   return (
     <div className="c-space section-spacing" ref={containerRef}>
-      <h2 className="text-heading">My Work Experience</h2>
+      <h2 className="text-heading">{t("experiences.heading")}</h2>
       <div className="relative mt-5 pb-10">
         <p className="max-w-sm text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-          I&apos;ve been working on Front-end Development for the past 2 years.
-          Here&apos;s a timeline of my journey.
+          {t("experiences.text")}
         </p>
       </div>
       <div ref={ref} className="relative mx-auto pb-20 max-w-7xl">

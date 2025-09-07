@@ -23,5 +23,33 @@
       "heading": "Texnik Qobiliyat",
       "text": "Men kuchli va kengaytiriladigan ilovalarni yaratishga imkon beruvchi turli dasturlash tillari, kutubxonalari va yordamchi vositalarga ixtisoslashganman"
     }
+  },
+  "experiences": {
+    "heading": "Mening ish tajribam",
+    "text": "Men oxirgi 2 yil davomida Front-end Development ustida ishlayapman. Mana mening sayohatimning xronologiyasi",
+    "exp1": {
+      "1": "- Texnik tajribani namoyish qilish uchun Three.js, React, Vite va WebAPI yordamida shaxsiy portfel yaratildi",
+      "2": "- Texnik ko'nikmalarni doimiy ravishda oshirish va zamonaviy veb-ishlab chiqish va back-end texnologiyalari bo'yicha tajribani kengaytirish"
+    },
+    "exp2": {
+      "1": "- Jamoani samarali boshqarish, Trelloda vazifalar o'z vaqtida bajarilishi kerakligiga ishonch hosil qilish",
+      "2": "- Mijozlar bilan real vaqt rejimida aloqani ta'minlash uchun veb-saytlarga Telegram botlari va EmailJS qo'shish",
+      "3": "- UX dizaynini yaxshilash uchun saytlarni moslashuvchan va silliq qilish uchun Three.js, antDesign, Swiper, Aos kutubxonalaridan foydalanish",
+      "4": "- Ko'p tilli saytlarni yaratish uchun i18next kutubxonalaridan samarali foydalanish",
+      "5": "- Tailwind, .env va React JS bilan sezgir, xavfsiz va Rest-full API asosidagi veb-saytlarni yaratish",
+      "6": "- Passiv mudofaa tashkiloti va Milliy kiberkosmos markazi tomonidan o'rnatilgan standartlarga rioya qilgan holda, ilova xavfsizligi yaxshilandi va yangi xususiyatlar ishlab chiqildi",
+      "7": "- MapsUI-dan foydalangan holda intuitiv xarita interfeyslari ishlab chiqilgan va amalga oshirilgan, foydalanuvchi tajribasini yaxshilaydi va xaritaning uzluksiz interaktiv integratsiyasini ta'minlaydi",
+      "8": "- Windows Forms va WPF ramkalaridan foydalangan holda ilovalarning sezgirligi va qulayligi yaxshilandi",
+      "9": "- X-DOM yordamida XML-dan SVG-ga konvertatsiya qilindi, bu dinamik va samarali ma'lumotlar vizualizatsiyasini ta'minlaydi"
+    },
+    "exp3": {
+      "1": "- Murakkab saytlar, kichik o'lchamli veb-saytlar yaratish va uni faqat tez qilish",
+      "2": "- Kod takrorlanishini yo'qotish uchun kuchli algoritm yaratish va saytlarni tez va engil qilish",
+      "3": "- Samaradorlik va SEOni 90% - 100% gacha oshirish va Google qidiruvida saytlarni yuqoriga ko'tarish",
+      "4": "- keng ko'lamli ma'lumotlarni qabul qilish va tahlil qilish uchun ishlab chiqilgan tizimlar, ma'lumotlarni samarali qayta ishlash va saqlashni ta'minlaydi",
+      "5": "✅ ISO 26262 avtomobil xavfsizligi standartlariga rioya qilgan holda xavfsiz API joriy etildi",
+      "6": "✅ Sanoatga mos protokollar orqali mijozlar va hamkorlar uchun ma'lumotlar maxfiyligi ta'minlandi",
+      "7": "✅ Havodan yangilanishlar, real vaqtda kuzatish va masofadan ishga tushirish imkoniyatlari kabi masofaviy xususiyatlar taqdim etildi"
+    }
   }
 }

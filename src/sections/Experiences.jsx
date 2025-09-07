@@ -1,10 +1,10 @@
 import Timeline from "../components/Timeline";
-import { experiences } from "../constants";
+import { createExperiences } from "../constants";
 
 function Experiences() {
   return (
     <div id="work" className="w-full">
-      <Timeline data={experiences} />
+      <Timeline data={createExperiences()} />
     </div>
   );
 }
