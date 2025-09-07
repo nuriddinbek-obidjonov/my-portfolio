@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 function Language() {
   const [t, i18n] = useTranslation();
 
-  const languages = localStorage.getItem("i18nextLng") || "uz";
+  const languages = localStorage.getItem("i18nextLng") || "EN";
 
   const changeLanguage = (e) => {
     const selectedLanguage = e.target.value;

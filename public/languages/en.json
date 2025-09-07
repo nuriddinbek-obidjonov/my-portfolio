@@ -4,5 +4,24 @@
     "about": "About",
     "work": "Work",
     "contact": "Contact"
+  },
+  "about": {
+    "box1": {
+      "heading": "Hi I'm Nuriddinbek Obidjonov",
+      "text": "Software professional with 1.5+ year experience, a strong focus on customers, excellent communication abilities, and technical platform competence"
+    },
+    "box3": {
+      "heading": "Time Zone",
+      "text": "I'm based in Tashkent, Uzbekistan, and open to remote work worldwide"
+    },
+    "box4": {
+      "heading": "Do you want to start a project together ?",
+      "btncopy": "Copy Email Address",
+      "btncopied": "Email has been copied"
+    },
+    "box5": {
+      "heading": "Tech Stack",
+      "text": "I specialize in variety of languages, frameworks and tools that allows me to build rebust and scalable applications"
+    }
   }
 }

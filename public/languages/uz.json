@@ -4,5 +4,24 @@
     "about": "Men Haqimda",
     "work": "Tajriba",
     "contact": "Aloqa"
+  },
+  "about": {
+    "box1": {
+      "heading": "Salom, men Nuriddinbek Obidjonov",
+      "text": "1,5 yildan ortiq tajribaga ega bo'lgan, mijozlarga katta e'tibor qaratgan, mukammal aloqa qobiliyatlari va texnik platforma malakasiga ega dasturiy ta'minot bo'yicha mutaxassis"
+    },
+    "box3": {
+      "heading": "Vaqt Mintaqasi",
+      "text": "Men Toshkentda (O'zbekiston) yashayman va butun dunyo bo'ylab masofaviy ishlashga ochiqman"
+    },
+    "box4": {
+      "heading": "Birga proyekt boshlashni hohlaysizmi ?",
+      "btncopy": "Emailni Nusxalash",
+      "btncopied": "Email Nusxalandi"
+    },
+    "box5": {
+      "heading": "Texnik Qobiliyat",
+      "text": "Men kuchli va kengaytiriladigan ilovalarni yaratishga imkon beruvchi turli dasturlash tillari, kutubxonalari va yordamchi vositalarga ixtisoslashganman"
+    }
   }
 }

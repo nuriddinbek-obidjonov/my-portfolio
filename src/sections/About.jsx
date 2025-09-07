@@ -3,9 +3,11 @@ import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import FrameWorks from "../components/FrameWorks";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
   const grid2Container = useRef();
+  const [t, i18n] = useTranslation();
   return (
     <section id="about" className="c-space section-spacing">
       <h2 className="text-heading">About Me</h2>
@@ -18,12 +20,8 @@ const About = () => {
             className="-top-[1rem] -right-[5rem] md:left-50 absolute md:inset-y-10 scale-[1.75] md:scale-[3] lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi I'm Nuriddinbek Obidjonov</p>
-            <p className="subtext">
-              Software professional with 1.5+ year experience, a strong focus on
-              customers, excellent communication abilities, and technical
-              platform competence.
-            </p>
+            <p className="headtext">{t("about.box1.heading")}</p>
+            <p className="subtext">{t("about.box1.text")}</p>
             <div className="absolute inset-x-0 bg-gradient-to-t from-indigo h-1/2 sm:h-1/3 pointer-events-none"></div>
           </div>
         </div>
@@ -82,11 +80,8 @@ const About = () => {
         {/* Grid 3 */}
         <div className="grid-3 grid-black-color">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Time Zone</p>
-            <p className="subtext">
-              I'm based in Tashkent, Uzbekistan, and open to remote work
-              worldwide
-            </p>
+            <p className="headtext">{t("about.box3.heading")}</p>
+            <p className="subtext">{t("about.box3.text")}</p>
           </div>
           <figure className="top-[10%] left-[30%] absolute">
             <Globe />
@@ -96,10 +91,7 @@ const About = () => {
         {/* Grid 4 */}
         <div className="grid-4 grid-special-color">
           <div className="flex flex-col justify-center items-center gap-4 size-full">
-            <p className="text-center headtext">
-              {" "}
-              Do you want to start a project together
-            </p>
+            <p className="text-center headtext">{t("about.box4.heading")}</p>
             <CopyEmailButton />
           </div>
         </div>
@@ -107,12 +99,8 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-5 grid-default-color">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Tech Stack</p>
-            <p className="subtext">
-              {" "}
-              I specialize in variety of languages, frameworks and tools that
-              allows me to build rebust and scalable applications
-            </p>
+            <p className="headtext">{t("about.box5.heading")}</p>
+            <p className="subtext">{t("about.box5.text")}</p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full md:scale-125 start-[65%] md:start-[50%]">
             <FrameWorks />
