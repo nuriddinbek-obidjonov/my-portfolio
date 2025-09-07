@@ -32,7 +32,7 @@ const Timeline = ({ data }) => {
           {t("experiences.text")}
         </p>
       </div>
-      <div ref={ref} className="relative mx-auto pb-20 max-w-7xl">
+      <div ref={ref} className="relative mx-auto max-w-7xl">
         {data.map((item, index) => (
           // Job experiences
           <div
@@ -72,7 +72,7 @@ const Timeline = ({ data }) => {
           style={{
             height: height + "px",
           }}
-          className="top-0 left-1 md:left-1 absolute bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-[0%] from-transparent via-neutral-700 to-[99%] to-transparent w-[2px] overflow-hidden [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)]">
+          className="top-0 left-1 absolute bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-[0%] from-transparent via-neutral-700 to-[99%] to-transparent w-[2px] overflow-hidden [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)]">
           <motion.div
             style={{
               height: heightTransform,
