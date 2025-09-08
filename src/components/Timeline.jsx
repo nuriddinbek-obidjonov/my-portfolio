@@ -32,7 +32,7 @@ const Timeline = ({ data }) => {
           {t("experiences.text")}
         </p>
       </div>
-      <div ref={ref} className="relative mx-auto max-w-7xl">
+      <div ref={ref} className="relative mx-auto max-w-7xl overflow-hidden">
         {data.map((item, index) => (
           // Job experiences
           <div

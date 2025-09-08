@@ -2,8 +2,10 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const [t, i18n] = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -72,17 +74,13 @@ function Contact() {
       {showAlert && <Alert type={alertType} text={alertMessege} />}
       <div className="flex flex-col justify-center items-center bg-primary mx-auto p-5 border-white/10 rounded-2xl max-w-md bor">
         <div className="flex flex-col gap-5 mb-10 w-full text-start">
-          <h2 className="text-heading">Let's Talk</h2>
-          <p className="font-normal text-neutral-400">
-            Whether you are looking to build a new website, improve your
-            existing platform, or bring a unique project to life, I'm here to
-            help
-          </p>
+          <h2 className="text-heading">{t("contact.heading")}</h2>
+          <p className="font-normal text-neutral-400">{t("contact.text")}</p>
         </div>
         <form action="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label htmlFor="name" className="field-label">
-              Full Name
+              {t("contact.form.inputname")}
             </label>
             <input
               type="text"
@@ -98,7 +96,7 @@ function Contact() {
           </div>
           <div className="mb-5">
             <label htmlFor="email" className="feild-label">
-              Email
+              {t("contact.form.inputemail")}
             </label>
             <input
               type="email"
@@ -114,7 +112,7 @@ function Contact() {
           </div>
           <div className="mb-5">
             <label htmlFor="messege" className="feild-label">
-              Messege
+              {t("contact.form.inputmessege")}
             </label>
             <textarea
               type="text"
@@ -132,7 +130,9 @@ function Contact() {
           <button
             type="submit"
             className="bg-radial from-lavender to-royal px-1 py-3 rounded-md w-full text-lg text-center cursor-pointer to hover-animation">
-            {isLoading ? "Sending..." : "Send"}
+            {isLoading
+              ? t("contact.form.btnsending")
+              : t("contact.form.btnsend")}
           </button>
         </form>
       </div>

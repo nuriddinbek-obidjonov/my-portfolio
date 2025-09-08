@@ -6,6 +6,7 @@
     "contact": "Aloqa"
   },
   "about": {
+    "about": "Men Haqimda",
     "box1": {
       "heading": "Salom, men Nuriddinbek Obidjonov",
       "text": "1,5 yildan ortiq tajribaga ega bo'lgan, mijozlarga katta e'tibor qaratgan, mukammal aloqa qobiliyatlari va texnik platforma malakasiga ega dasturiy ta'minot bo'yicha mutaxassis"
@@ -50,6 +51,21 @@
       "5": "✅ ISO 26262 avtomobil xavfsizligi standartlariga rioya qilgan holda xavfsiz API joriy etildi",
       "6": "✅ Sanoatga mos protokollar orqali mijozlar va hamkorlar uchun ma'lumotlar maxfiyligi ta'minlandi",
       "7": "✅ Havodan yangilanishlar, real vaqtda kuzatish va masofadan ishga tushirish imkoniyatlari kabi masofaviy xususiyatlar taqdim etildi"
+    }
+  },
+  "testimonials": {
+    "heading": "Mening Mijozlarim Fikrlari"
+  },
+  "contact": {
+    "heading": "Menga Yozing",
+    "text": "Yangi veb-sayt yaratmoqchimisiz, mavjud platformangizni yaxshilamoqchimisiz yoki noyob loyihani hayotga tatbiq qilmoqchimisiz, men yordam berish uchun shu yerdaman",
+    "form": {
+      "inputname": "To'liq Ism",
+      "inputemail": "Eloktron Pochta",
+      "inputmessege": "Xabar",
+      "placeholder": "Fikrlaringizni bo'lishing...",
+      "btnsend": "Jo'natish",
+      "btnsending": "Jo'natilyapti"
     }
   }
 }

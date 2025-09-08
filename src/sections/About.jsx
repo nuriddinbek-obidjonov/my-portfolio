@@ -10,7 +10,7 @@ const About = () => {
   const [t, i18n] = useTranslation();
   return (
     <section id="about" className="c-space section-spacing">
-      <h2 className="text-heading">About Me</h2>
+      <h2 className="text-heading">{t("about.about")}</h2>
       <div className="gap-4 grid grid-cols-1 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-1 grid-default-color">

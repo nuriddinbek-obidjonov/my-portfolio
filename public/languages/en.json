@@ -6,6 +6,7 @@
     "contact": "Contact"
   },
   "about": {
+    "about": "About Me",
     "box1": {
       "heading": "Hi I'm Nuriddinbek Obidjonov",
       "text": "Software professional with 1.5+ year experience, a strong focus on customers, excellent communication abilities, and technical platform competence"
@@ -50,6 +51,21 @@
       "5": "✅ Implemented secure APIs, following ISO 26262 automotive safety standards",
       "6": "✅ Ensured data privacy for customers and partners through industry-compliant protocols",
       "7": "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities"
+    }
+  },
+  "testimonials": {
+    "hading": "Hear From My Clients"
+  },
+  "contact": {
+    "heading": "Let's Talk",
+    "text": "Whether you are looking to build a new website, improve your existing platform, or bring a unique project to life, I'm here to help",
+    "form": {
+      "inputname": "Full Name",
+      "inputemail": "Email",
+      "inputmessege": "Messege",
+      "placeholder": "Share your thoughts...",
+      "btnsend": "Send",
+      "btnsending": "Sending"
     }
   }
 }
