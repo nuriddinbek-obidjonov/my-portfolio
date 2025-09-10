@@ -26,7 +26,7 @@
     }
   },
   "projects": {
-    "readmore": "Ko'proq Bilish",
+    "readmore": "Ko'proq Ko'rish",
     "p1": {
       "heading": "Ijaraga Avtomobil Platformasi",
       "info": "Dubayda avtoulovlarni ijaraga olish uchun qulay sayt, mijozlarga avtomobillarning narxi va barcha qulayliklari haqida oldindan bilishga imkon beradi va shundan keyin qaysi mashinani ijaraga olish kerakligini hal qiladi",
@@ -120,7 +120,15 @@
     }
   },
   "testimonials": {
-    "heading": "Mening Mijozlarim Fikrlari"
+    "heading": "Mening mijozlarimning sharhlari",
+    "oybek": "Men hech qachon bunday narsani ko'rmaganman. Bu ajoyib. Men uni yaxshi ko'raman.",
+    "sardorbek": "Nima deyishni bilmayman. Gapirdim. Bu ajoyib.",
+    "navro'za": "Men so'zni bilmay qoldim. Bu ajoyib. Men buni yaxshi ko'raman.",
+    "javohir": "Bu men boshdan kechirgan eng yaxshi narsa. Tavsiya qilaman!",
+    "zulfiya": "Ajoyib ish! Tafsilotlarga e'tibor ajoyib.",
+    "rustambek": "Bu barcha kutganlarimdan oshib ketdi. Mutlaqo ajoyib!",
+    "muhammadkarim": "Shunchaki hayratlanarli. Bir muncha vaqt ichida qilgan eng yaxshi qarorim.",
+    "shohruz": "Buni topganimdan xursandman. Bu men uchun o'yinni o'zgartirdi."
   },
   "contact": {
     "heading": "Menga Yozing",

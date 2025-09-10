@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import ProjectDetails from "./ProjectDetails";
 import { useState } from "react";
 
@@ -10,6 +11,7 @@ const Project = ({
   tags,
   setPreview,
 }) => {
+  const [t, i18n] = useTranslation();
   const [isHidden, setIsHidden] = useState(false);
   return (
     <>
@@ -28,7 +30,7 @@ const Project = ({
         <button
           onClick={() => setIsHidden(true)}
           className="flex items-center gap-1 cursor-pointer hover-animation">
-          Read More
+          {t("projects.readmore")}
           <img src="assets/arrow-right.svg" alt="arrow icon" className="w-5" />
         </button>
       </div>

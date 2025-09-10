@@ -1,9 +1,7 @@
 import { twMerge } from "tailwind-merge";
 import Marquee from "../components/Marquee";
-import { reviews } from "../constants";
+import { createReviews } from "../constants";
 import { useTranslation } from "react-i18next";
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({ img, name, username, body }) => {
   return (
@@ -35,6 +33,9 @@ const ReviewCard = ({ img, name, username, body }) => {
 
 export default function Testimonial() {
   const [t, i18n] = useTranslation();
+  const reviews = createReviews();
+  const firstRow = reviews.slice(0, reviews.length / 2);
+  const secondRow = reviews.slice(reviews.length / 2);
   return (
     <div className="items-start mt-25 md:mt-35 c-space">
       <h2 className="text-heading">{t("testimonials.heading")}</h2>

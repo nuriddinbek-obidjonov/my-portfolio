@@ -287,53 +287,57 @@ export const createExperiences = () => {
   return experiences;
 };
 
-export const reviews = [
-  {
-    name: "Oybek",
-    username: "o_oybek1",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Sardorbek",
-    username: "SardorbekPahlavonovv",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "Navro'za",
-    username: "moychechak21",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Javohir",
-    username: "Ooo122112",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Zulfiya",
-    username: "ZULFIYA_007",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Rustambek",
-    username: "the_rustambek",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Muhammadkarim",
-    username: "Hrafford",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Shohruz",
-    username: "wzuzb",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
-];
+export const createReviews = () => {
+  const [t, i18n] = useTranslation();
+  const reviews = [
+    {
+      name: "Oybek",
+      username: "o_oybek1",
+      body: t("testimonials.oybek"),
+      img: "https://robohash.org/jack",
+    },
+    {
+      name: "Sardorbek",
+      username: "SardorbekPahlavonovv",
+      body: t("testimonials.sardorbek"),
+      img: "https://robohash.org/jill",
+    },
+    {
+      name: "Navro'za",
+      username: "moychechak21",
+      body: t("testimonials.navruza"),
+      img: "https://robohash.org/john",
+    },
+    {
+      name: "Javohir",
+      username: "Ooo122112",
+      body: t("testimonials.javohir"),
+      img: "https://robohash.org/alice",
+    },
+    {
+      name: "Zulfiya",
+      username: "ZULFIYA_007",
+      body: t("testimonials.zulfiya"),
+      img: "https://robohash.org/bob",
+    },
+    {
+      name: "Rustambek",
+      username: "the_rustambek",
+      body: t("testimonials.rustambek"),
+      img: "https://robohash.org/charlie",
+    },
+    {
+      name: "Muhammadkarim",
+      username: "Hrafford",
+      body: t("testimonials.muhammadkarim"),
+      img: "https://robohash.org/dave",
+    },
+    {
+      name: "Shohruz",
+      username: "wzuzb",
+      body: t("testimonials.shohruz"),
+      img: "https://robohash.org/eve",
+    },
+  ];
+  return reviews;
+};
