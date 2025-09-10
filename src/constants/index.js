@@ -1,232 +1,230 @@
 import { useTranslation } from "react-i18next";
 
-export const myProjects = [
-  {
-    id: 1,
-    title: "Rent Cars Platform",
-    description:
-      "Comfortable site to rent cars in Dubai, Allowing clients to know about price and all facilities of cars in advance and after that decide which car need to rent",
-    subDescription: [
-      "Building a responsive website with Rest-full API",
-      "Implementing Admin panel for secure authentification and to change the information by owner",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added filts to sort cars by their types, price, brand and so on...",
-    ],
-    href: "https://rent-car-dubai.netlify.app/",
-    logo: "",
-    image: "/assets/projects/rent-cars.png",
-    tags: [
-      {
-        id: 1,
-        name: "React JS",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 3,
-        name: "Rest-full API",
-        path: "/assets/logos/rest-full-api.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Real Estate Sale",
-    description:
-      "Sale website for newly made homes, the owner is Atabaey Bahadir that's why website name was also matched to his name",
-    subDescription: [
-      "Created with Vite to make it modern and fast",
-      "Used i18next to make this platform multilingual and added three languages - english, russian, uzbek",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-    ],
-    href: "https://atabaev.netlify.app/",
-    logo: "",
-    image: "/assets/projects/atabaev-building.png",
-    tags: [
-      {
-        id: 1,
-        name: "i18next",
-        path: "/assets/logos/i18next.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Gamy-kids",
-    description:
-      "Modern simple games for kids and to improve their logical skills",
-    subDescription: [
-      "This platform specially created to pass semester exam at University",
-      "Added navbar panel which includes information about documantation and auther",
-      "Live search panel added and made it easy to search for specific game",
-      "Developed a fully interactive Single Page Application using JavaScript, CSS3, HTML5",
-      "Implemented CSS mensary gridlines and inserted many games",
-      "Added Google Dinasour, X or O, Tennis, Drum-kit, Dice Stones",
-    ],
-    href: "https://gamy-kids.netlify.app/",
-    logo: "",
-    image: "/assets/projects/gamy-kids.png",
-    tags: [
-      {
-        id: 1,
-        name: "JavsaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 4,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Bukhara Fabric",
-    description:
-      "Bukhara Fabric - natural products and collection of thousands of materials for sale",
-    subDescription: [
-      "Used React JS, Javascript, TailwindCSS, CSS3, HTML5 to make this website",
-      "Added AntDesign and Swiper libraries to give smooth animations",
-      "Given ability to work with 3 languages and to be easy for all users",
-      "Created suggestion to offer most relevant or popular products to clients",
-      "Used TailwindCSS to increase this site's SEO and maintain smooth operation",
-    ],
-    href: "https://bukhara-fabric.netlify.app/",
-    logo: "",
-    image: "/assets/projects/bukhara-fabric.png",
-    tags: [
-      {
-        id: 1,
-        name: "GitHub",
-        path: "/assets/logos/github.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "I18next",
-        path: "/assets/logos/i18next.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "HooBank",
-    description:
-      "HooBank is a bank platform which give all online banking facilities to the users",
-    subDescription: [
-      "Specially created to improve web-design knowledge on my own",
-      "Developed a responsive theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Bootstrap for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Bootstrap for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "https://nuriddinbek-hoobank.netlify.app/",
-    logo: "",
-    image: "/assets/projects/hoo-bank.png",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Udevs IT Company",
-    description:
-      "A web application for personal use of IT-company, it will offer all services of that company",
-    subDescription: [
-      "Personal website for Udevs IT company",
-      "Created with Vite JS to make it fast and effecient",
-      "Added interactive and user-friendly interface to attracte satisfy clients",
-      "Used Tailwindcss to give flawless and smooth motion to site and increase its SEO",
-    ],
-    href: "https://udevs-murex.vercel.app/",
-    logo: "",
-    image: "/assets/projects/udevs.png",
-    tags: [
-      {
-        id: 1,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 2,
-        name: "Ant Design",
-        path: "/assets/logos/ant-design.svg",
-      },
-      {
-        id: 3,
-        name: "I18next",
-        path: "/assets/logos/i18next.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-];
+export const createProjects = () => {
+  const [t, i18n] = useTranslation();
+  const myProjects = [
+    {
+      id: 1,
+      title: t("projects.p1.heading"),
+      description: t("projects.p1.info"),
+      subDescription: [
+        t("projects.p1.text.1"),
+        t("projects.p1.text.2"),
+        t("projects.p1.text.3"),
+        t("projects.p1.text.4"),
+      ],
+      href: "https://rent-car-dubai.netlify.app/",
+      logo: "",
+      image: "/assets/projects/rent-cars.png",
+      tags: [
+        {
+          id: 1,
+          name: "React JS",
+          path: "/assets/logos/react.svg",
+        },
+        {
+          id: 2,
+          name: "JavaScript",
+          path: "/assets/logos/javascript.svg",
+        },
+        {
+          id: 3,
+          name: "Rest-full API",
+          path: "/assets/logos/rest-full-api.svg",
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: "/assets/logos/tailwindcss.svg",
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: t("projects.p2.heading"),
+      description: t("projects.p2.info"),
+      subDescription: [
+        t("projects.p2.text.1"),
+        t("projects.p2.text.2"),
+        t("projects.p2.text.3"),
+      ],
+      href: "https://atabaev.netlify.app/",
+      logo: "",
+      image: "/assets/projects/atabaev-building.png",
+      tags: [
+        {
+          id: 1,
+          name: "i18next",
+          path: "/assets/logos/i18next.svg",
+        },
+        {
+          id: 2,
+          name: "React",
+          path: "/assets/logos/react.svg",
+        },
+        {
+          id: 3,
+          name: "CSS3",
+          path: "/assets/logos/css3.svg",
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: "/assets/logos/tailwindcss.svg",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: t("projects.p3.heading"),
+      description: t("projects.p3.info"),
+      subDescription: [
+        t("projects.p3.text.1"),
+        t("projects.p3.text.2"),
+        t("projects.p3.text.3"),
+        t("projects.p3.text.4"),
+        t("projects.p3.text.5"),
+        t("projects.p3.text.6"),
+      ],
+      href: "https://gamy-kids.netlify.app/",
+      logo: "",
+      image: "/assets/projects/gamy-kids.png",
+      tags: [
+        {
+          id: 1,
+          name: "JavsaScript",
+          path: "/assets/logos/javascript.svg",
+        },
+        {
+          id: 2,
+          name: "CSS3",
+          path: "/assets/logos/css3.svg",
+        },
+        {
+          id: 3,
+          name: "HTML5",
+          path: "/assets/logos/html5.svg",
+        },
+        {
+          id: 4,
+          name: "Git",
+          path: "/assets/logos/git.svg",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: t("projects.p4.heading"),
+      description: t("projects.p4.info"),
+      subDescription: [
+        t("projects.p4.text.1"),
+        t("projects.p4.text.2"),
+        t("projects.p4.text.3"),
+        t("projects.p4.text.4"),
+        t("projects.p4.text.5"),
+      ],
+      href: "https://bukhara-fabric.netlify.app/",
+      logo: "",
+      image: "/assets/projects/bukhara-fabric.png",
+      tags: [
+        {
+          id: 1,
+          name: "GitHub",
+          path: "/assets/logos/github.svg",
+        },
+        {
+          id: 2,
+          name: "React",
+          path: "/assets/logos/react.svg",
+        },
+        {
+          id: 3,
+          name: "Git",
+          path: "/assets/logos/git.svg",
+        },
+        {
+          id: 4,
+          name: "I18next",
+          path: "/assets/logos/i18next.svg",
+        },
+      ],
+    },
+    {
+      id: 5,
+      title: t("projects.p5.heading"),
+      description: t("projects.p5.info"),
+      subDescription: [
+        t("projects.p5.text.1"),
+        t("projects.p5.text.2"),
+        t("projects.p5.text.3"),
+        t("projects.p5.text.4"),
+        t("projects.p5.text.5"),
+      ],
+      href: "https://nuriddinbek-hoobank.netlify.app/",
+      logo: "",
+      image: "/assets/projects/hoo-bank.png",
+      tags: [
+        {
+          id: 1,
+          name: "WordPress",
+          path: "/assets/logos/wordpress.svg",
+        },
+        {
+          id: 2,
+          name: "HTML5",
+          path: "/assets/logos/html5.svg",
+        },
+        {
+          id: 3,
+          name: "CSS3",
+          path: "/assets/logos/css3.svg",
+        },
+        {
+          id: 4,
+          name: "Vite.js",
+          path: "/assets/logos/javascript.svg",
+        },
+      ],
+    },
+    {
+      id: 6,
+      title: t("projects.p6.heading"),
+      description: t("projects.p6.info"),
+      subDescription: [
+        t("projects.p6.text.1"),
+        t("projects.p6.text.2"),
+        t("projects.p6.text.3"),
+        t("projects.p6.text.4"),
+      ],
+      href: "https://udevs-murex.vercel.app/",
+      logo: "",
+      image: "/assets/projects/udevs.png",
+      tags: [
+        {
+          id: 1,
+          name: "Vite",
+          path: "/assets/logos/vitejs.svg",
+        },
+        {
+          id: 2,
+          name: "Ant Design",
+          path: "/assets/logos/ant-design.svg",
+        },
+        {
+          id: 3,
+          name: "I18next",
+          path: "/assets/logos/i18next.svg",
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: "/assets/logos/tailwindcss.svg",
+        },
+      ],
+    },
+  ];
+  return myProjects;
+};
 
 export const mySocials = [
   {

@@ -25,6 +25,72 @@
       "text": "Men kuchli va kengaytiriladigan ilovalarni yaratuvchi turli dasturlash tillari, kutubxonalarga ixtisoslashganman"
     }
   },
+  "projects": {
+    "readmore": "Ko'proq Bilish",
+    "p1": {
+      "heading": "Ijaraga Avtomobil Platformasi",
+      "info": "Dubayda avtoulovlarni ijaraga olish uchun qulay sayt, mijozlarga avtomobillarning narxi va barcha qulayliklari haqida oldindan bilishga imkon beradi va shundan keyin qaysi mashinani ijaraga olish kerakligini hal qiladi",
+      "text": {
+        "1": "Rest-full API bilan sezgir veb-sayt yaratish",
+        "2": "Xavfsiz autentifikatsiya qilish va egasi tomonidan ma'lumotlarni o'zgartirish uchun Administrator panelini joriy qilish",
+        "3": "Tailwind CSS bilan sezgir frontendni ishlab chiqdi, bu foydalanuvchi tajribasini yaxshilaydi",
+        "4": "Avtomobillarni turlari, narxi, markasi va boshqalar bo'yicha saralash uchun filtrlar qo'shildi..."
+      }
+    },
+    "p2": {
+      "heading": "Uy-joy Savdosi",
+      "info": "Sale website for newly made homes, the owner is Atabaey Bahadir that's why website name was also matched to his name",
+      "text": {
+        "1": "Created with Vite to make it modern and fast",
+        "2": "Used i18next to make this platform multilingual and added three languages - english, russian, uzbek",
+        "3": "Developed a React-based frontend with Tailwind CSS for a sleek user experience"
+      }
+    },
+    "p3": {
+      "heading": "Bolalar O'yini",
+      "info": "Modern simple games for kids and to improve their logical skills",
+      "text": {
+        "1": "This platform specially created to pass semester exam at University",
+        "2": "Added navbar panel which includes information about documantation and auther",
+        "3": "Live search panel added and made it easy to search for specific game",
+        "4": "Developed a fully interactive Single Page Application using JavaScript, CSS3, HTML5",
+        "5": "Implemented CSS mensary gridlines and inserted many games",
+        "6": "Added Google Dinasour, X or O, Tennis, Drum-kit, Dice Stones"
+      }
+    },
+    "p4": {
+      "heading": "Buxoro Fabrikasi",
+      "info": "Bukhara Fabric - natural products and collection of thousands of materials for sale",
+      "text": {
+        "1": "Used React JS, Javascript, TailwindCSS, CSS3, HTML5 to make this website",
+        "2": "Added AntDesign and Swiper libraries to give smooth animations",
+        "3": "Given ability to work with 3 languages and to be easy for all users",
+        "4": "Created suggestion to offer most relevant or popular products to clients",
+        "5": "Used TailwindCSS to increase this site's SEO and maintain smooth operation"
+      }
+    },
+    "p5": {
+      "heading": "HooBank",
+      "info": "HooBank is a bank platform which give all online banking facilities to the users",
+      "text": {
+        "1": "Specially created to improve web-design knowledge on my own",
+        "2": "Developed a responsive theme using HTML5, CSS3, and JavaScript",
+        "3": "Integrated Bootstrap for modern styling and UI enhancements",
+        "4": "Optimized SEO and page speed using Bootstrap for fast builds",
+        "5": "Implemented custom widgets and plugin compatibility for extended functionality"
+      }
+    },
+    "p6": {
+      "heading": "Udevs Dasturchi Kompaniya",
+      "info": "A web application for personal use of IT-company, it will offer all services of that company",
+      "text": {
+        "1": "Personal website for Udevs IT company",
+        "2": "Created with Vite JS to make it fast and effecient",
+        "3": "Added interactive and user-friendly interface to attracte satisfy clients",
+        "4": "Used Tailwindcss to give flawless and smooth motion to site and increase its SEO"
+      }
+    }
+  },
   "experiences": {
     "heading": "Mening ish tajribam",
     "text": "Men oxirgi 2 yil davomida Front-end Development ustida ishlayapman. Mana mening sayohatimning xronologiyasi",
@@ -67,5 +133,10 @@
       "btnsend": "Jo'natish",
       "btnsending": "Jo'natilyapti"
     }
+  },
+  "footer": {
+    "1": "Shartlar va Majburiyatlar",
+    "2": "Maxfiylik Siyosati",
+    "3": "\u00A9 2025 Nuriddinbek. Barcha huquqlar himoyalangan."
   }
 }

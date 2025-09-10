@@ -25,14 +25,14 @@ const Timeline = ({ data }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="c-space section-spacing" ref={containerRef}>
+    <div className="overflow-hidden c-space section-spacing" ref={containerRef}>
       <h2 className="text-heading">{t("experiences.heading")}</h2>
       <div className="relative mt-5 pb-10">
         <p className="max-w-sm text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
           {t("experiences.text")}
         </p>
       </div>
-      <div ref={ref} className="relative mx-auto max-w-7xl overflow-hidden">
+      <div ref={ref} className="relative mx-auto max-w-7xl">
         {data.map((item, index) => (
           // Job experiences
           <div

@@ -14,7 +14,7 @@ const Project = ({
   return (
     <>
       <div
-        className="flex-wrap items-center py-10 space-y-14 sm:flex sm:space-y-0 justify-between"
+        className="sm:flex flex-wrap justify-between items-center space-y-14 sm:space-y-0 py-10"
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}>
         <div>
@@ -32,7 +32,7 @@ const Project = ({
           <img src="assets/arrow-right.svg" alt="arrow icon" className="w-5" />
         </button>
       </div>
-      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
+      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent w-full h-[1px]" />
       {isHidden && (
         <ProjectDetails
           title={title}

@@ -25,6 +25,72 @@
       "text": "I specialize in variety of languages, frameworks and tools that allows me to build rebust and scalable applications"
     }
   },
+  "projects": {
+    "readmore": "Learn More",
+    "p1": {
+      "heading": "Car Rental Platform",
+      "info": "A convenient site for renting cars in Dubai, allowing customers to know in advance about the price and all the amenities of the cars and then decide which car to rent",
+      "text": {
+        "1": "Create a responsive website with a Rest-full API",
+        "2": "Implement an Admin panel for secure authentication and changing data by the owner",
+        "3": "Developed a responsive frontend with Tailwind CSS, which improves the user experience",
+        "4": "Added filters to sort cars by type, price, brand, etc..."
+      }
+    },
+    "p2": {
+      "heading": "Home Sales",
+      "info": "Sale website for newly made homes, the owner is Atabaey Bahadir that's why website name was also matched to his name",
+      "text": {
+        "1": "Created with Vite to make it modern and fast",
+        "2": "Used i18next to make this platform multilingual and added three languages ​​- English, Russian, Uzbek",
+        "3": "Developed a React-based frontend with Tailwind CSS for a sleek user experience"
+      }
+    },
+    "p3": {
+      "heading": "Child's Play",
+      "info": "Modern simple games for kids and to improve their logical skills",
+      "text": {
+        "1": "This platform specially created to pass semester exam at University",
+        "2": "Added navbar panel which includes information about documentation and author",
+        "3": "Live search panel added and made it easy to search for specific game",
+        "4": "Developed a fully interactive Single Page Application using JavaScript, CSS3, HTML5",
+        "5": "Implemented CSS monthly gridlines and inserted many games",
+        "6": "Added Google Dinasour, X or O, Tennis, Drum-kit, Dice Stones"
+      }
+    },
+    "p4": {
+      "heading": "Bukhara Factory",
+      "info": "Bukhara Fabric - natural products and collection of thousands of materials for sale",
+      "text": {
+        "1": "Used React JS, Javascript, TailwindCSS, CSS3, HTML5 to make this website",
+        "2": "Added AntDesign and Swiper libraries to give smooth animations",
+        "3": "Given ability to work with 3 languages ​​and to be easy for all users",
+        "4": "Created suggestion to offer most relevant or popular products to clients",
+        "5": "Used TailwindCSS to increase this site's SEO and maintain smooth operation"
+      }
+    },
+    "p5": {
+      "heading": "HooBank",
+      "info": "HooBank is a banking platform which provides all online banking facilities to the users",
+      "text": {
+        "1": "Specially created to improve web-design knowledge on my own",
+        "2": "Developed a responsive theme using HTML5, CSS3, and javascript",
+        "3": "Integrated Bootstrap for modern styling and UI enhancements",
+        "4": "Optimized SEO and page speed using Bootstrap for fast builds",
+        "5": "Implemented custom widgets and plugin compatibility for extended functionality"
+      }
+    },
+    "p6": {
+      "heading": "Udevs Developer Company",
+      "info": "A web application for personal use of IT-company, it will offer all services of that company",
+      "text": {
+        "1": "Personal website for Udevs IT company",
+        "2": "Created with Vite JS to make it fast and efficient",
+        "3": "Added interactive and user-friendly interface to attract and satisfy clients",
+        "4": "Used Tailwindcss to give flawless and smooth motion to site and increase its SEO"
+      }
+    }
+  },
   "experiences": {
     "heading": "My Work Experience",
     "text": "I've been working on Front-end Development for the past 2 years. Here's a timeline of my journey",
@@ -54,7 +120,7 @@
     }
   },
   "testimonials": {
-    "hading": "Hear From My Clients"
+    "heading": "Hear From My Clients"
   },
   "contact": {
     "heading": "Let's Talk",
@@ -67,5 +133,10 @@
       "btnsend": "Send",
       "btnsending": "Sending"
     }
+  },
+  "footer": {
+    "1": "Terms & Conditions",
+    "2": "Privacy Policy",
+    "3": "\u00A9 2025 Nuriddinbek. All rights reserved."
   }
 }

@@ -23,7 +23,7 @@ function ProjectDetails({
         <img src={image} alt={title} className="rounded-t-2xl w-full" />
         <div className="p-5">
           <h5 className="mb-2 font-bold text-white text-2xl">{title}</h5>
-          <p className="mb-3 font-normal text-neutral-400">{description}</p>
+          <p className="mb-3 font-bold text-white">{description}</p>
           {subDescription.map((item, index) => (
             <p key={index} className="mb-3 font-normal text-neutral-400">
               {item}

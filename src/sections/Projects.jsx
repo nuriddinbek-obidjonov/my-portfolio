@@ -1,5 +1,5 @@
 import Project from "../components/Project";
-import { myProjects } from "../constants";
+import { createProjects } from "../constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
 import { useState } from "react";
 
@@ -19,7 +19,7 @@ function Projects() {
       className="relative c-space section-spacing">
       <h2 className="text-heading">My Selected Projects</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 w-full h-[1px]" />
-      {myProjects.map((project) => (
+      {createProjects().map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
       {preview && (
