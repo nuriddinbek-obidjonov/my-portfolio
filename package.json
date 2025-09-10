@@ -15,7 +15,6 @@
     "@react-three/fiber": "^9.3.0",
     "@tailwindcss/vite": "^4.1.12",
     "cobe": "^0.6.4",
-    "firebase": "^12.2.1",
     "i18next": "^25.5.1",
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-http-backend": "^3.0.2",
