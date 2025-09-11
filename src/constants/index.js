@@ -84,7 +84,6 @@ export const createProjects = () => {
         t("projects.p3.text.3"),
         t("projects.p3.text.4"),
         t("projects.p3.text.5"),
-        t("projects.p3.text.6"),
       ],
       href: "https://gamy-kids.netlify.app/",
       logo: "",

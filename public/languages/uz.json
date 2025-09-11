@@ -50,23 +50,22 @@
       "heading": "Bolalar O'yini",
       "info": "Bolalar uchun zamonaviy va ularning mantiqiy ko'nikmalarini oshiruvchi o'yinlar",
       "text": {
-        "1": "Ushbu platforma universitetda semestr imtihonini topshirish uchun maxsus yaratilgan",
-        "2": "Hujjatlashtirish va egasi haqida ma'lumotni o'z ichiga olgan navbar paneli qo'shildi",
-        "3": "Jonli qidiruv paneli qo'shildi va muayyan o'yinni qidirishni osonlashtirdi",
-        "4": "JavaScript, CSS3, HTML5 yordamida to'liq interaktiv yagona sahifali ilova ishlab chiqildi",
-        "5": "CSS mensary gridlines amalga oshirildi va ko'plab o'yinlar kiritildi",
-        "6": "Google Dinasour, X yoki O, tennis, barabanlar to'plami, zar toshlari qo'shildi"
+        "1": "Hujjatlashtirish va egasi haqida ma'lumotni o'z ichiga olgan navbar paneli qo'shildi",
+        "2": "Jonli qidiruv paneli qo'shildi va muayyan o'yinni qidirishni osonlashtirdi",
+        "3": "JavaScript, CSS3, HTML5 yordamida to'liq interaktiv yagona sahifali ilova ishlab chiqildi",
+        "4": "CSS mensary gridlines amalga oshirildi va ko'plab o'yinlar kiritildi",
+        "5": "Google Dinasour, X yoki O, tennis, barabanlar to'plami, zar toshlari qo'shildi"
       }
     },
     "p4": {
       "heading": "Buxoro Fabrikasi",
       "info": "Buxoro matosi - tabiiy mahsulotlar va minglab materiallar kolleksiyasi sotiladi",
       "text": {
-        "1": "Ushbu veb-saytni yaratish uchun React JS, Javascript, TailwindCSS, CSS3, HTML5 dan foydalanilgan",
+        "1": "Bu proyektda React JS, Javascript, TailwindCSS, CSS3, HTML5 dan foydalanilgan",
         "2": "Bir tekis animatsiyalarni berish uchun AntDesign va Swiper kutubxonalari qo'shildi",
         "3": "3 ta til bilan ishlash va barcha foydalanuvchilar uchun qulay bo'lish qobiliyatiga ega",
         "4": "Mijozlarga eng mos yoki mashhur mahsulotlarni taklif qilida",
-        "5": "Ushbu saytning SEO darajasini oshirish va zamonaviy qilish TailwindCSS ishlatildi"
+        "5": "SEOni oshirish va zamonaviy qilish uchun TailwindCSS ishlatildi"
       }
     },
     "p5": {
