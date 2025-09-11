@@ -120,7 +120,7 @@ function Contact() {
               id="messege"
               name="messege"
               className="field-input field-input-focus"
-              placeholder="Share your thoughts..."
+              placeholder={t("contact.form.placeholder")}
               autoComplete="messege"
               value={formData.messege}
               onChange={handleChange}

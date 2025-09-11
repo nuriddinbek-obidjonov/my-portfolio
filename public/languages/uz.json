@@ -9,7 +9,7 @@
     "about": "Men Haqimda",
     "box1": {
       "heading": "Salom, men Nuriddinbek Obidjonov",
-      "text": "1,5 yildan ortiq tajribaga ega bo'lgan, mijozlarga katta e'tibor qaratgan, mukammal aloqa qobiliyatlari va texnik platforma malakasiga ega dasturiy ta'minot bo'yicha mutaxassis"
+      "text": "1,5 yildan ortiq tajribaga, mukammal aloqa qobiliyatlari va texnik platforma malakasiga ega dasturiy ta'minot bo'yicha mutaxassisman"
     },
     "box3": {
       "heading": "Vaqt Zonasi",
@@ -22,72 +22,72 @@
     },
     "box5": {
       "heading": "Texnik Qobiliyat",
-      "text": "Men kuchli va kengaytiriladigan ilovalarni yaratuvchi turli dasturlash tillari, kutubxonalarga ixtisoslashganman"
+      "text": "Men zamonaviy ilovalarni yaratuvchi turli dasturlash tillari va kutubxonalarga ixtisoslashganman"
     }
   },
   "projects": {
     "readmore": "Ko'proq Ko'rish",
     "p1": {
       "heading": "Ijaraga Avtomobil Platformasi",
-      "info": "Dubayda avtoulovlarni ijaraga olish uchun qulay sayt, mijozlarga avtomobillarning narxi va barcha qulayliklari haqida oldindan bilishga imkon beradi va shundan keyin qaysi mashinani ijaraga olish kerakligini hal qiladi",
+      "info": "Dubayda avtoulovlarni ijaraga olish uchun qulay sayt, avtomobillarning narxlari va barcha qulayliklari haqida oldindan bilisiz va shundan keyin ijaraga olasiz",
       "text": {
-        "1": "Rest-full API bilan sezgir veb-sayt yaratish",
-        "2": "Xavfsiz autentifikatsiya qilish va egasi tomonidan ma'lumotlarni o'zgartirish uchun Administrator panelini joriy qilish",
-        "3": "Tailwind CSS bilan sezgir frontendni ishlab chiqdi, bu foydalanuvchi tajribasini yaxshilaydi",
-        "4": "Avtomobillarni turlari, narxi, markasi va boshqalar bo'yicha saralash uchun filtrlar qo'shildi..."
+        "1": "Rest-full API bilan sezgir veb-sayt yaratildi",
+        "2": "Xavfsiz autentifikatsiya va egasi tomonidan ma'lumotlarni o'zgartirish uchun administrator panelini joriy qilindi",
+        "3": "Tailwind CSS bilan qulay frontendni ishlab chiqib, foydalanuvchi tajribasi yaxshilandi",
+        "4": "Avtomobil turi, narxi, markasi va boshqalar bo'yicha saralash uchun filtrlar qo'shildi"
       }
     },
     "p2": {
       "heading": "Uy-joy Savdosi",
-      "info": "Sale website for newly made homes, the owner is Atabaey Bahadir that's why website name was also matched to his name",
+      "info": "Yangi qurilgan uylar sotiladigan platforma, egasi Otabaey Bahodir, shuning uchun veb-sayt nomi ham uning nomiga moslangan",
       "text": {
-        "1": "Created with Vite to make it modern and fast",
-        "2": "Used i18next to make this platform multilingual and added three languages - english, russian, uzbek",
-        "3": "Developed a React-based frontend with Tailwind CSS for a sleek user experience"
+        "1": "Zamonaviy va tezkor qilish uchun Vite bilan yaratilgan",
+        "2": "Ushbu platformani ko'p tilli qilish uchun i18next ishlatildi va uchta til qo'shildi - ingliz, rus, o'zbek",
+        "3": "Foydalanuvchining qulay tajribasi uchun Tailwind CSS bilan React-ga asoslangan frontend ishlab chiqildi"
       }
     },
     "p3": {
       "heading": "Bolalar O'yini",
-      "info": "Modern simple games for kids and to improve their logical skills",
+      "info": "Bolalar uchun zamonaviy va ularning mantiqiy ko'nikmalarini oshiruvchi o'yinlar",
       "text": {
-        "1": "This platform specially created to pass semester exam at University",
-        "2": "Added navbar panel which includes information about documantation and auther",
-        "3": "Live search panel added and made it easy to search for specific game",
-        "4": "Developed a fully interactive Single Page Application using JavaScript, CSS3, HTML5",
-        "5": "Implemented CSS mensary gridlines and inserted many games",
-        "6": "Added Google Dinasour, X or O, Tennis, Drum-kit, Dice Stones"
+        "1": "Ushbu platforma universitetda semestr imtihonini topshirish uchun maxsus yaratilgan",
+        "2": "Hujjatlashtirish va egasi haqida ma'lumotni o'z ichiga olgan navbar paneli qo'shildi",
+        "3": "Jonli qidiruv paneli qo'shildi va muayyan o'yinni qidirishni osonlashtirdi",
+        "4": "JavaScript, CSS3, HTML5 yordamida to'liq interaktiv yagona sahifali ilova ishlab chiqildi",
+        "5": "CSS mensary gridlines amalga oshirildi va ko'plab o'yinlar kiritildi",
+        "6": "Google Dinasour, X yoki O, tennis, barabanlar to'plami, zar toshlari qo'shildi"
       }
     },
     "p4": {
       "heading": "Buxoro Fabrikasi",
-      "info": "Bukhara Fabric - natural products and collection of thousands of materials for sale",
+      "info": "Buxoro matosi - tabiiy mahsulotlar va minglab materiallar kolleksiyasi sotiladi",
       "text": {
-        "1": "Used React JS, Javascript, TailwindCSS, CSS3, HTML5 to make this website",
-        "2": "Added AntDesign and Swiper libraries to give smooth animations",
-        "3": "Given ability to work with 3 languages and to be easy for all users",
-        "4": "Created suggestion to offer most relevant or popular products to clients",
-        "5": "Used TailwindCSS to increase this site's SEO and maintain smooth operation"
+        "1": "Ushbu veb-saytni yaratish uchun React JS, Javascript, TailwindCSS, CSS3, HTML5 dan foydalanilgan",
+        "2": "Bir tekis animatsiyalarni berish uchun AntDesign va Swiper kutubxonalari qo'shildi",
+        "3": "3 ta til bilan ishlash va barcha foydalanuvchilar uchun qulay bo'lish qobiliyatiga ega",
+        "4": "Mijozlarga eng mos yoki mashhur mahsulotlarni taklif qilida",
+        "5": "Ushbu saytning SEO darajasini oshirish va zamonaviy qilish TailwindCSS ishlatildi"
       }
     },
     "p5": {
       "heading": "HooBank",
-      "info": "HooBank is a bank platform which give all online banking facilities to the users",
+      "info": "HooBank - foydalanuvchilarga barcha onlayn bank xizmatlarini taqdim etadigan bank platformasi",
       "text": {
-        "1": "Specially created to improve web-design knowledge on my own",
-        "2": "Developed a responsive theme using HTML5, CSS3, and JavaScript",
-        "3": "Integrated Bootstrap for modern styling and UI enhancements",
-        "4": "Optimized SEO and page speed using Bootstrap for fast builds",
-        "5": "Implemented custom widgets and plugin compatibility for extended functionality"
+        "1": "Veb-dizayn bilimlarini mustaqil ravishda yaxshilash uchun maxsus yaratilgan",
+        "2": "HTML5, CSS3 va JavaScript yordamidan foydalanilgan",
+        "3": "Zamonaviy uslublar va foydalanuvchi interfeysini yaxshilash uchun Bootstrap ishlatilgan",
+        "4": "SEO va sahifa tezligi optimallashtirilgan",
+        "5": "Kengaytirilgan funksionallik uchun maxsus vidjetlar va plagin mosligi joriy etilgan"
       }
     },
     "p6": {
       "heading": "Udevs Dasturchi Kompaniya",
-      "info": "A web application for personal use of IT-company, it will offer all services of that company",
+      "info": "IT-kompaniyaning shaxsiy foydalanishi uchun veb-ilova, u kompaniyaning barcha xizmatlarini taklif qiladi",
       "text": {
-        "1": "Personal website for Udevs IT company",
-        "2": "Created with Vite JS to make it fast and effecient",
-        "3": "Added interactive and user-friendly interface to attracte satisfy clients",
-        "4": "Used Tailwindcss to give flawless and smooth motion to site and increase its SEO"
+        "1": "Udevs IT kompaniyasining shaxsiy veb-sayti",
+        "2": "Tez va samarali qilish uchun Vite JS bilan yaratilgan",
+        "3": "Mijozlarni mamnun qilish uchun interaktiv va qulay interfeys qo'shildi",
+        "4": "TailwindCSSdan saytni erkin va silliq harakat qildirish va uning SEO darajasini oshirish uchun foydalanildi"
       }
     }
   },
@@ -99,36 +99,36 @@
       "2": "- Texnik ko'nikmalarni doimiy ravishda oshirish va zamonaviy veb-ishlab chiqish va back-end texnologiyalari bo'yicha tajribani kengaytirish"
     },
     "exp2": {
-      "1": "- Jamoani samarali boshqarish, Trelloda vazifalar o'z vaqtida bajarilishi kerakligiga ishonch hosil qilish",
-      "2": "- Mijozlar bilan real vaqt rejimida aloqani ta'minlash uchun veb-saytlarga Telegram botlari va EmailJS qo'shish",
-      "3": "- UX dizaynini yaxshilash uchun saytlarni moslashuvchan va silliq qilish uchun Three.js, antDesign, Swiper, Aos kutubxonalaridan foydalanish",
+      "1": "- Jamoani samarali boshqarish, Trelloda vazifalar o'z vaqtida bajarilganligiga ishonch hosil qilish",
+      "2": "- Mijozlar bilan real vaqt rejimida aloqani ta'minlash uchun veb-saytlarga Telegram botlari va EmailJSni qo'shish",
+      "3": "- UX dizaynini yaxshilash, saytlarni moslashuvchan va silliq qilish uchun Three.js, antDesign, Swiper, Aos kutubxonalaridan foydalanish",
       "4": "- Ko'p tilli saytlarni yaratish uchun i18next kutubxonalaridan samarali foydalanish",
-      "5": "- Tailwind, .env va React JS bilan sezgir, xavfsiz va Rest-full API asosidagi veb-saytlarni yaratish",
-      "6": "- Passiv mudofaa tashkiloti va Milliy kiberkosmos markazi tomonidan o'rnatilgan standartlarga rioya qilgan holda, ilova xavfsizligi yaxshilandi va yangi xususiyatlar ishlab chiqildi",
-      "7": "- MapsUI-dan foydalangan holda intuitiv xarita interfeyslari ishlab chiqilgan va amalga oshirilgan, foydalanuvchi tajribasini yaxshilaydi va xaritaning uzluksiz interaktiv integratsiyasini ta'minlaydi",
-      "8": "- Windows Forms va WPF ramkalaridan foydalangan holda ilovalarning sezgirligi va qulayligi yaxshilandi",
-      "9": "- X-DOM yordamida XML-dan SVG-ga konvertatsiya qilindi, bu dinamik va samarali ma'lumotlar vizualizatsiyasini ta'minlaydi"
+      "5": "- Tailwind, .env va React JS bilan xavfsiz va Rest-full API asosidagi veb-saytlarni yaratish",
+      "6": "- Passiv Mudofaa Tashkiloti va Milliy Kiberkosmos markazi tomonidan o'rnatilgan standartlarga rioya qilgan holda, ilova xavfsizligi yaxshilash va yangi xususiyatlar ishlab chiqish",
+      "7": "- MapsUI-dan foydalangan holda intuitiv xarita interfeyslari ishlab chiqish, foydalanuvchi tajribasini yaxshilash va xaritaning uzluksiz interaktiv integratsiyasini ta'minlash",
+      "8": "- Windows Forms va WPF ramkalaridan foydalangan holda ilovalarning sezgirligi va qulayligi yaxshilash",
+      "9": "- X-DOM yordamida XML-dan SVG-ga konvertatsiya qilish, va bu orqali dinamik va samarali ma'lumotlar vizualizatsiyasini ta'minlash"
     },
     "exp3": {
-      "1": "- Murakkab saytlar, kichik o'lchamli veb-saytlar yaratish va uni faqat tez qilish",
-      "2": "- Kod takrorlanishini yo'qotish uchun kuchli algoritm yaratish va saytlarni tez va engil qilish",
-      "3": "- Samaradorlik va SEOni 90% - 100% gacha oshirish va Google qidiruvida saytlarni yuqoriga ko'tarish",
-      "4": "- keng ko'lamli ma'lumotlarni qabul qilish va tahlil qilish uchun ishlab chiqilgan tizimlar, ma'lumotlarni samarali qayta ishlash va saqlashni ta'minlaydi",
-      "5": "✅ ISO 26262 avtomobil xavfsizligi standartlariga rioya qilgan holda xavfsiz API joriy etildi",
-      "6": "✅ Sanoatga mos protokollar orqali mijozlar va hamkorlar uchun ma'lumotlar maxfiyligi ta'minlandi",
-      "7": "✅ Havodan yangilanishlar, real vaqtda kuzatish va masofadan ishga tushirish imkoniyatlari kabi masofaviy xususiyatlar taqdim etildi"
+      "1": "- Murakkab saytlar, kichik o'lchamli veb-saytlar yaratish va ularni tezigini oshirish",
+      "2": "- Kod takrorlanishini yo'qotish uchun kuchli algoritm yaratish, saytlarni tez va yengil qilish",
+      "3": "- Samaradorlik va SEOni 90%dan yuqoriga oshirish va Google qidiruvida saytlarni yuqoriga ko'tarish",
+      "4": "- Keng ko'lamli ma'lumotlarni qabul qilish va tahlil qilish uchun tizimlar ishlab chiqish, ma'lumotlarni samarali qayta ishlash va saqlashni ta'minlash",
+      "5": "✅ ISO 26262 avtomotiv xavfsizlik standartlariga rioya qilgan holda xavfsiz API joriy etish",
+      "6": "✅ Sanoatga mos protokollar orqali mijozlar va hamkorlar uchun ma'lumotlar maxfiyligi ta'minlash",
+      "7": "✅ Havodan yangilanishlar, real vaqtda kuzatish va masofadan ishga tushirish imkoniyatlari kabi masofaviy xususiyatlar taqdim etish"
     }
   },
   "testimonials": {
     "heading": "Mening mijozlarimning sharhlari",
-    "oybek": "Men hech qachon bunday narsani ko'rmaganman. Bu ajoyib. Men uni yaxshi ko'raman.",
-    "sardorbek": "Nima deyishni bilmayman. Gapirdim. Bu ajoyib.",
-    "navro'za": "Men so'zni bilmay qoldim. Bu ajoyib. Men buni yaxshi ko'raman.",
-    "javohir": "Bu men boshdan kechirgan eng yaxshi narsa. Tavsiya qilaman!",
-    "zulfiya": "Ajoyib ish! Tafsilotlarga e'tibor ajoyib.",
-    "rustambek": "Bu barcha kutganlarimdan oshib ketdi. Mutlaqo ajoyib!",
-    "muhammadkarim": "Shunchaki hayratlanarli. Bir muncha vaqt ichida qilgan eng yaxshi qarorim.",
-    "shohruz": "Buni topganimdan xursandman. Bu men uchun o'yinni o'zgartirdi."
+    "oybek": "Men hech qachon bunday mukammal ishni ko'rmaganman. Nuriddinbekni qilgan ishlari menga yoqdi!!!",
+    "sardorbek": "Nima deyishni bilmayman 🤗😍. hozirda bizni kompaniya ular yaratgan platformadan foydalanmoqda",
+    "navruza": "Biz o'z marketimiz uchun sayt qildirdik va u juda yaxshi ishlamoqda. Menga rossa yoqdi 💖.",
+    "javohir": "Bu men tanigan eng yaxshi dasturchi. Tavsiya qilaman!",
+    "zulfiya": "Ajoyib ish! Ikir-chikirigacha hamasi zo'r, e'tibor ajoyib 💖.",
+    "rustambek": "Mening eng yaxshi va bilimli o'quvchim✊. Doimo yangiliklar yaratadi!!!",
+    "muhammadkarim": "Shunchaki super. U qilgan ishlar eng zo'ri 👍.",
+    "shohruz": "Tanishganimdan xursandman. Bu bola meni qarorimni o'zgartirdi."
   },
   "contact": {
     "heading": "Menga Yozing",
