@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
 import Project from "../components/Project";
 import { createProjects } from "../constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
 import { useState } from "react";
 
 function Projects() {
+  const [t, i18n] = useTranslation();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const springX = useSpring(x, { damping: 10, stiffness: 50 });
@@ -17,7 +19,7 @@ function Projects() {
     <section
       onMouseMove={handleMouseMove}
       className="relative c-space section-spacing">
-      <h2 className="text-heading">My Selected Projects</h2>
+      <h2 className="text-heading">{t("projects.heading")}</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 w-full h-[1px]" />
       {createProjects().map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />

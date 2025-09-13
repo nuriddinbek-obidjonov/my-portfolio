@@ -26,6 +26,7 @@
     }
   },
   "projects": {
+    "heading": "My Selected Projects",
     "readmore": "Learn More",
     "p1": {
       "heading": "Car Rental Platform",
