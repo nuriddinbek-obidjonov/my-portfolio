@@ -58,7 +58,7 @@ body {
 a[href="https://freehitcounters.org/stats/ik8d"]
 {
   display: block;
-  @apply mx-auto mt-2 px-5 sm:px-10 lg:px-15 max-w-7xl;
+  @apply mx-auto mt-3 px-5 sm:px-10 lg:px-15 max-w-7xl;
 }
 
 .c-space {
