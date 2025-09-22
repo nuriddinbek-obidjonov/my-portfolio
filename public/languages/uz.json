@@ -28,6 +28,16 @@
   "projects": {
     "heading": "Mening Tanlangan Proyektlarim",
     "readmore": "Ko'proq Ko'rish",
+    "p0": {
+      "heading": "Viktorina Ilovasi",
+      "info": "U sizning yaqin bilimlaringizni tekshirish uchun yaratilgan va dasturlashning ko'plab sohalari bo'yicha savollar bilan ta'minlangan",
+      "text": {
+        "1": "Rest-full API bilan sezgir veb-sayt yarating",
+        "2": "HTML5, CSS, JS, mavjudlik haqida savollar qo'shing",
+        "3": "CSS bilan javob beruvchi frontend ishlab chiqildi",
+        "4": "React-Router-Dom bilan ko'p sahifali hujjat yaratildi"
+      }
+    },
     "p1": {
       "heading": "Ijaraga Avtomobil Platformasi",
       "info": "Dubayda avtoulovlarni ijaraga olish uchun qulay sayt, avtomobillarning narxlari va barcha qulayliklari haqida oldindan bilisiz va shundan keyin ijaraga olasiz",

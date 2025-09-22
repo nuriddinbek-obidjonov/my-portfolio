@@ -28,6 +28,16 @@
   "projects": {
     "heading": "My Selected Projects",
     "readmore": "Learn More",
+    "p0": {
+      "heading": "Quiz App",
+      "info": "It is created to check your fronend knowledge and provided with questions about many fields of programming",
+      "text": {
+        "1": "Create a responsive website with a Rest-full API",
+        "2": "Add questions about HTML5, CSS, JS, Accessibility",
+        "3": "Developed a responsive frontend with CSS",
+        "4": "Created multypages document with React-Router-Dom"
+      }
+    },
     "p1": {
       "heading": "Car Rental Platform",
       "info": "A convenient site for renting cars in Dubai, allowing customers to know about the price and all the amenities of the cars to decide which car to rent",

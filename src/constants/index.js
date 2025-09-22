@@ -4,6 +4,42 @@ export const createProjects = () => {
   const [t, i18n] = useTranslation();
   const myProjects = [
     {
+      id: 0,
+      title: t("projects.p0.heading"),
+      description: t("projects.p0.info"),
+      subDescription: [
+        t("projects.p0.text.1"),
+        t("projects.p0.text.2"),
+        t("projects.p0.text.3"),
+        t("projects.p0.text.4"),
+      ],
+      href: "https://quiz-app-coral-eta.vercel.app/",
+      logo: "",
+      image: "/assets/projects/quiz-app.png",
+      tags: [
+        {
+          id: 1,
+          name: "React JS",
+          path: "/assets/logos/react.svg",
+        },
+        {
+          id: 2,
+          name: "JavaScript",
+          path: "/assets/logos/javascript.svg",
+        },
+        {
+          id: 3,
+          name: "Rest-full API",
+          path: "/assets/logos/rest-full-api.svg",
+        },
+        {
+          id: 4,
+          name: "CSS",
+          path: "/assets/logos/css3.svg",
+        },
+      ],
+    },
+    {
       id: 1,
       title: t("projects.p1.heading"),
       description: t("projects.p1.info"),
