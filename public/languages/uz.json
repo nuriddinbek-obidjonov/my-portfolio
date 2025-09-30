@@ -99,6 +99,16 @@
         "3": "Mijozlarni mamnun qilish uchun interaktiv va qulay interfeys qo'shildi",
         "4": "TailwindCSSdan saytni erkin va silliq harakat qildirish va uning SEO darajasini oshirish uchun foydalanildi"
       }
+    },
+    "p7": {
+      "heading": "Firebase bilan Mening Pulim ilovasi",
+      "info": "bu mening pul va daromad boshqarish uchun har bir operatsiyalarni hisoblash uchun emas",
+      "text": {
+        "1": "firebase firestore bilan yaratilgan",
+        "2": "siz faqat sizga ko'rinadigan hisob qaydnomasini va operatsiyalarni yaratishingiz mumkin",
+        "3": "haqiqiy vaqtda ma'lumotlarni yangilashni olish mumkin",
+        "4": "siz har qanday vaqtda tranzaktsiyalar tarixini qo'shishingiz, o'chirishingiz va o'zgartirishingiz mumkin"
+      }
     }
   },
   "experiences": {

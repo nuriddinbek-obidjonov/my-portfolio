@@ -99,6 +99,16 @@
         "3": "Added interactive and user-friendly interface to attract and satisfy clients",
         "4": "Used Tailwindcss to give flawless and smooth motion to site and increase its SEO"
       }
+    },
+    "p7": {
+      "heading": "My Money app with Firebase",
+      "info": "It is to calculate my money and every transactions to manage income",
+      "text": {
+        "1": "Created with firebase firestore",
+        "2": "You can create you account and transactions which is visible only to you",
+        "3": "It is possible to get real time data update",
+        "4": "You can add, delete and change transaction history any time"
+      }
     }
   },
   "experiences": {
