@@ -279,7 +279,7 @@ export const createProjects = () => {
         {
           id: 2,
           name: "Firebase",
-          path: "/assets/logos/firebase.svg",
+          path: "/assets/logos/firebase.png",
         },
         {
           id: 3,
