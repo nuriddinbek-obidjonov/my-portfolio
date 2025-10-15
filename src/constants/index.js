@@ -319,15 +319,20 @@ export const createExperiences = () => {
   const [t, i18n] = useTranslation();
   const experiences = [
     {
-      title: "Freelance Developer",
-      job: "Self-Employed",
-      date: "2025/07-Present",
-      contents: [t("experiences.exp1.1"), t("experiences.exp1.2")],
+      title: "Teacher",
+      job: "MARS IT School",
+      date: "2025/10 - present",
+      contents: [
+        t("experiences.exp1.1"),
+        t("experiences.exp1.2"),
+        t("experiences.exp1.3"),
+        t("experiences.exp1.4"),
+      ],
     },
     {
       title: "Software Developer",
       job: "LIMSA",
-      date: "2025/01-2025/06",
+      date: "2025/01-2025/09",
       contents: [
         t("experiences.exp2.1"),
         t("experiences.exp2.2"),
