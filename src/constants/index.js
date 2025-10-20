@@ -293,6 +293,42 @@ export const createProjects = () => {
         },
       ],
     },
+    {
+      id: 8,
+      title: t("projects.p8.heading"),
+      description: t("projects.p8.info"),
+      subDescription: [
+        t("projects.p8.text.1"),
+        t("projects.p8.text.2"),
+        t("projects.p8.text.3"),
+        t("projects.p8.text.4"),
+      ],
+      href: "https://anime-vault-rouge.vercel.app/",
+      logo: "",
+      image: "/assets/projects/anime.png",
+      tags: [
+        {
+          id: 1,
+          name: "Next JS",
+          path: "/assets/logos/nextjs.svg",
+        },
+        {
+          id: 2,
+          name: "TypeScript",
+          path: "/assets/logos/typescript.svg",
+        },
+        {
+          id: 3,
+          name: "API",
+          path: "/assets/logos/rest-full-api.svg",
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: "/assets/logos/tailwindcss.svg",
+        },
+      ],
+    },
   ];
   return myProjects;
 };

@@ -109,6 +109,16 @@
         "3": "haqiqiy vaqtda ma'lumotlarni yangilashni olish mumkin",
         "4": "siz har qanday vaqtda tranzaktsiyalar tarixini qo'shishingiz, o'chirishingiz va o'zgartirishingiz mumkin"
       }
+    },
+    "p8": {
+      "heading": "Anime Vault",
+      "info": "Sevimli anime seriyalaringizni tomosha qilish va boshqarish uchun platforma",
+      "text": {
+        "1": "Keyingi JS xususiyatlari bilan yaratilgan",
+        "2": "O'tkazishda anime kartalarini yuklash uchun React-Inscroll-Observer ishlatildi",
+        "3": "Tashqi manbadan anime ma'lumotlarini olish uchun Rest-full API amalga oshirildi",
+        "4": "Ish vaqti xatolaridan qochish va kod sifatini ta'minlash uchun TypeScript ishlatildi"
+      }
     }
   },
   "experiences": {

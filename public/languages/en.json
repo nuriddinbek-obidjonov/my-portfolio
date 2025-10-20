@@ -109,6 +109,16 @@
         "3": "It is possible to get real time data update",
         "4": "You can add, delete and change transaction history any time"
       }
+    },
+    "p8": {
+      "heading": "Anime Vault",
+      "info": "A platform to watch and manage your favorite anime series",
+      "text": {
+        "1": "Created with advanced Next JS features",
+        "2": "Used React-Inscroll-Observer to load anime cards when scrolling",
+        "3": "Implemented Rest-full API to fetch anime data from external source",
+        "4": "Used TypeScript to avoid runtime errors and ensure code quality"
+      }
     }
   },
   "experiences": {
