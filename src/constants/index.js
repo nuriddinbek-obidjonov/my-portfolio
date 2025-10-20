@@ -185,43 +185,6 @@ export const createProjects = () => {
       ],
     },
     {
-      id: 5,
-      title: t("projects.p5.heading"),
-      description: t("projects.p5.info"),
-      subDescription: [
-        t("projects.p5.text.1"),
-        t("projects.p5.text.2"),
-        t("projects.p5.text.3"),
-        t("projects.p5.text.4"),
-        t("projects.p5.text.5"),
-      ],
-      href: "https://nuriddinbek-hoobank.netlify.app/",
-      logo: "",
-      image: "/assets/projects/hoo-bank.png",
-      tags: [
-        {
-          id: 1,
-          name: "WordPress",
-          path: "/assets/logos/wordpress.svg",
-        },
-        {
-          id: 2,
-          name: "HTML5",
-          path: "/assets/logos/html5.svg",
-        },
-        {
-          id: 3,
-          name: "CSS3",
-          path: "/assets/logos/css3.svg",
-        },
-        {
-          id: 4,
-          name: "Vite.js",
-          path: "/assets/logos/javascript.svg",
-        },
-      ],
-    },
-    {
       id: 6,
       title: t("projects.p6.heading"),
       description: t("projects.p6.info"),
