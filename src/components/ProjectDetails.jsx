@@ -20,7 +20,7 @@ function ProjectDetails({
           className="top-5 right-5 absolute bg-midnight hover:bg-gray-500 p-2 rounded-sm duration-500">
           <img src="assets/close.svg" alt="close" className="w-6 h-6" />
           </button>
-          <img src={image} alt={title} className="rounded-t-2xl w-full" />
+          <img src={image} alt={title} className="rounded-tl-2xl w-full" />
           <div className="p-5">
             <h5 className="mb-2 font-bold text-white text-2xl">{title}</h5>
             <p className="mb-3 font-bold text-white">{description}</p>
