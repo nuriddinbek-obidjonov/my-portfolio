@@ -12,7 +12,7 @@ function ProjectDetails({
   return (
     <div className="z-50 fixed inset-0 flex justify-center items-center backdrop-blur-sm w-full" onClick={closeModel}>
       <motion.div
-        className="relative bg-gradient-to-l from-midnight to-navy shadow-sm border border-white/10 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-scroll"
+        className="relative bg-gradient-to-l from-midnight to-navy shadow-sm border border-white/10 rounded-tl-2xl rounded-bl-2xl w-full max-w-2xl max-h-[90vh] overflow-y-scroll"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }} onClick={(e) => e.stopPropagation()}>
           <button
