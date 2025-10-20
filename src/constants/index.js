@@ -293,6 +293,42 @@ export const createProjects = () => {
         },
       ],
     },
+    {
+      id: 8,
+      title: t("projects.p8.heading"),
+      description: t("projects.p8.info"),
+      subDescription: [
+        t("projects.p8.text.1"),
+        t("projects.p8.text.2"),
+        t("projects.p8.text.3"),
+        t("projects.p8.text.4"),
+      ],
+      href: "https://my-money-theta-two.vercel.app/",
+      logo: "",
+      image: "/assets/projects/my-money.png",
+      tags: [
+        {
+          id: 1,
+          name: "Vite",
+          path: "/assets/logos/vitejs.svg",
+        },
+        {
+          id: 2,
+          name: "Firebase",
+          path: "/assets/logos/firebase.png",
+        },
+        {
+          id: 3,
+          name: "React",
+          path: "/assets/logos/react.svg",
+        },
+        {
+          id: 4,
+          name: "CSS3",
+          path: "/assets/logos/css3.svg",
+        },
+      ],
+    },
   ];
   return myProjects;
 };
