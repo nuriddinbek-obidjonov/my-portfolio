@@ -4,11 +4,13 @@ const Frameworks = () => {
   const skills = [
     "auth0",
     "visualstudiocode",
+    "typescript",
     "github",
     "css3",
     "git",
     "threejs",
     "html5",
+    "nextjs",
     "microsoft",
     "react",
     "trello",
