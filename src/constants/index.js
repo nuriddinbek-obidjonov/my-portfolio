@@ -121,7 +121,7 @@ export const createProjects = () => {
         t("projects.p3.text.4"),
         t("projects.p3.text.5"),
       ],
-      href: "https://gamy-kids.netlify.app/",
+      href: "https://gamy-sigma.vercel.app/",
       logo: "",
       image: "/assets/projects/gamy-kids.png",
       tags: [
