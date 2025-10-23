@@ -320,7 +320,7 @@ export const createExperiences = () => {
     {
       title: "Teacher",
       job: "MARS IT School",
-      date: "2025/10 - present",
+      date: "2025/09 - present",
       contents: [
         t("experiences.exp1.1"),
         t("experiences.exp1.2"),
