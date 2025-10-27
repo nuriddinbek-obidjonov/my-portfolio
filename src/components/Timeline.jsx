@@ -37,9 +37,9 @@ const Timeline = ({ data }) => {
           // Job experiences
           <div
             key={index}
-            className="flex justify-start md:gap-10 pt-10 md:pt-40">
+            className="flex justify-start md:gap-10 pt-10 md:pt-20">
             {/* Desktop view */}
-            <div className="top-40 z-40 sticky flex md:flex-row flex-col items-center self-start md:w-full max-w-xs lg:max-w-sm">
+            <div className="z-40 sticky flex md:flex-row flex-col items-center self-start md:w-full max-w-xs lg:max-w-sm">
               <div className="-left-[15px] absolute flex justify-center items-center bg-midnight rounded-full w-10 h-10">
                 <div className="bg-neutral-800 p-2 border-neutral-700 rounded-full w-4 h-4" />
               </div>
