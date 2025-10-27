@@ -123,32 +123,23 @@
   },
   "experiences": {
     "heading": "My Work Experience",
-    "text": "I've been working on Front-end Development for the past 2 years. Here's a timeline of my journey",
+    "text": "I've been working on Frontend Development for the past 2 years. Here's a timeline of my journey",
     "exp1": {
-      "1": "Teaching students for Frontend and building projects with them",
-      "2": "Teaching Next JS, React JS, JavaScript, Git, GitHub, Restfull API, Tailwind, CSS, HTML and basic computer knowledge",
-      "3": "Continuoesly improving my knowledge learning new technologies from Senior Teachers",
-      "4": "Building personal portfolio with real domain named - nuriddinbek.uz and updating it gradually and gaining experience and trying to be The Best always"
+      "1": "- Teaching students frontend with easy and interactive methods",
+      "2": "- Developing self-study with AI and research skills on them to accelerate learning speed",
+      "3": "- Working on real projects and improving their knowledge by practice"
     },
     "exp2": {
-      "1": "- Efficiently managing team, making sure tasks need be done on time on Trello",
-      "2": "- Adding Telegram Bots and EmailJS to websites to provide real time communications with clients",
-      "3": "- Using Three.js, antDesign, Swiper, Aos libraries to make sites flexible and smooth for better UX design",
-      "4": "- Using i18next libraries effectively to create Multilingual sites",
-      "5": "- Building responsive, secure and Rest-full API based websites with Tailwind, .env and React JS",
-      "6": "- Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center",
-      "7": "- Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration",
-      "8": "- Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks",
-      "9": "- Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization"
+      "1": "- Creating modern sites with Next JS and TypeScript to avoid bugs",
+      "2": "- Inserting AI Chatbase powered with Chat GPT 4.0 to give information to clients",
+      "3": "- Adding Telegram bots and Email JS to websites to create a database of clients",
+      "4": "- Using Three.js, antDesign, Swiper, and Aos libraries to make sites more flexible and smooth",
+      "5": "- Efficiently managing the team, making sure tasks need to be done on time on Trello"
     },
     "exp3": {
-      "1": "- Creating sophisticated sites, small size websites and making it exclusively fast",
-      "2": "- Making strong algorithm to loose repetition of code and making sites fast and light",
-      "3": "- Raising performance and SEO to 90% – 100% and hoisting up sites to the top on Google search",
-      "4": "- Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage",
-      "5": "✅ Implemented secure APIs, following ISO 26262 automotive safety standards",
-      "6": "✅ Ensured data privacy for customers and partners through industry-compliant protocols",
-      "7": "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities"
+      "1": "- Using i18next libraries effectively to create multilingual sites",
+      "2": "- Creating websites with React JS, deploying on domain and registering on Google console",
+      "3": "- Raising performance and SEO over 90% and hoisting up sites to the top on search"
     }
   },
   "testimonials": {

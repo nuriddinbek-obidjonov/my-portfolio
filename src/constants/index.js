@@ -318,19 +318,18 @@ export const createExperiences = () => {
   const [t, i18n] = useTranslation();
   const experiences = [
     {
-      title: "Teacher",
+      title: "Mentor",
       job: "MARS IT School",
       date: "2025/09 - present",
       contents: [
         t("experiences.exp1.1"),
         t("experiences.exp1.2"),
         t("experiences.exp1.3"),
-        t("experiences.exp1.4"),
       ],
     },
     {
-      title: "Software Developer",
-      job: "LIMSA",
+      title: "Software Engineer",
+      job: "SOS uz",
       date: "2025/01-2025/09",
       contents: [
         t("experiences.exp2.1"),
@@ -338,24 +337,16 @@ export const createExperiences = () => {
         t("experiences.exp2.3"),
         t("experiences.exp2.4"),
         t("experiences.exp2.5"),
-        t("experiences.exp2.6"),
-        t("experiences.exp2.7"),
-        t("experiences.exp2.8"),
-        t("experiences.exp2.9"),
       ],
     },
     {
-      title: "Front-end Developer",
-      job: "ITA",
+      title: "Frontend Developer",
+      job: "LIMSA",
       date: "2024/03-2024/12",
       contents: [
         t("experiences.exp3.1"),
         t("experiences.exp3.2"),
         t("experiences.exp3.3"),
-        t("experiences.exp3.4"),
-        t("experiences.exp3.5"),
-        t("experiences.exp3.6"),
-        t("experiences.exp3.7"),
       ],
     },
   ];
