@@ -28,6 +28,7 @@
   "projects": {
     "heading": "My Selected Projects",
     "readmore": "Learn More",
+    "viewprojectbtn": "View Project",
     "p0": {
       "heading": "Quiz App",
       "info": "It is created to check your fronend knowledge and provided with questions about many fields of programming",
