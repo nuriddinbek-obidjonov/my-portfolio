@@ -19,7 +19,7 @@ export const createProjects = () => {
       tags: [
         {
           id: 1,
-          name: "React JS",
+          name: "React",
           path: "/assets/logos/react.svg",
         },
         {
@@ -29,7 +29,7 @@ export const createProjects = () => {
         },
         {
           id: 3,
-          name: "Rest-full API",
+          name: "API",
           path: "/assets/logos/rest-full-api.svg",
         },
         {
@@ -55,7 +55,7 @@ export const createProjects = () => {
       tags: [
         {
           id: 1,
-          name: "React JS",
+          name: "React",
           path: "/assets/logos/react.svg",
         },
         {
@@ -65,12 +65,12 @@ export const createProjects = () => {
         },
         {
           id: 3,
-          name: "Rest-full API",
+          name: "API",
           path: "/assets/logos/rest-full-api.svg",
         },
         {
           id: 4,
-          name: "TailwindCSS",
+          name: "Tailwind",
           path: "/assets/logos/tailwindcss.svg",
         },
       ],
@@ -100,12 +100,12 @@ export const createProjects = () => {
         },
         {
           id: 3,
-          name: "CSS3",
+          name: "CSS",
           path: "/assets/logos/css3.svg",
         },
         {
           id: 4,
-          name: "TailwindCSS",
+          name: "Tailwind",
           path: "/assets/logos/tailwindcss.svg",
         },
       ],
@@ -132,12 +132,12 @@ export const createProjects = () => {
         },
         {
           id: 2,
-          name: "CSS3",
+          name: "CSS",
           path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
-          name: "HTML5",
+          name: "HTML",
           path: "/assets/logos/html5.svg",
         },
         {
@@ -179,7 +179,7 @@ export const createProjects = () => {
         },
         {
           id: 4,
-          name: "I18next",
+          name: "i18next",
           path: "/assets/logos/i18next.svg",
         },
       ],
@@ -210,12 +210,12 @@ export const createProjects = () => {
         },
         {
           id: 3,
-          name: "I18next",
+          name: "i18next",
           path: "/assets/logos/i18next.svg",
         },
         {
           id: 4,
-          name: "TailwindCSS",
+          name: "Tailwind",
           path: "/assets/logos/tailwindcss.svg",
         },
       ],
@@ -251,7 +251,7 @@ export const createProjects = () => {
         },
         {
           id: 4,
-          name: "CSS3",
+          name: "CSS",
           path: "/assets/logos/css3.svg",
         },
       ],
@@ -272,7 +272,7 @@ export const createProjects = () => {
       tags: [
         {
           id: 1,
-          name: "Next JS",
+          name: "Next",
           path: "/assets/logos/nextjs.svg",
         },
         {
@@ -287,7 +287,7 @@ export const createProjects = () => {
         },
         {
           id: 4,
-          name: "TailwindCSS",
+          name: "Tailwind",
           path: "/assets/logos/tailwindcss.svg",
         },
       ],
