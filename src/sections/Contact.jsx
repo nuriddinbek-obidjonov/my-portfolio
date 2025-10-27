@@ -72,7 +72,7 @@ function Contact() {
         refresh
       />
       {showAlert && <Alert type={alertType} text={alertMessege} />}
-      <div className="flex flex-col justify-center items-center bg-primary mx-auto p-5 border-white/10 rounded-2xl max-w-md bor">
+      <div className="flex flex-col justify-center items-center bg-transparent backdrop-blur-[3px] mx-auto p-5 border border-white/10 rounded-2xl max-w-md">
         <div className="flex flex-col gap-5 mb-10 w-full text-start">
           <h2 className="text-heading">{t("contact.heading")}</h2>
           <p className="font-normal text-neutral-400">{t("contact.text")}</p>
