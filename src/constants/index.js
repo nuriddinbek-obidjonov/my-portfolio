@@ -325,7 +325,6 @@ export const createExperiences = () => {
         t("experiences.exp1.1"),
         t("experiences.exp1.2"),
         t("experiences.exp1.3"),
-        t("experiences.exp1.4"),
       ],
     },
     {
@@ -338,10 +337,6 @@ export const createExperiences = () => {
         t("experiences.exp2.3"),
         t("experiences.exp2.4"),
         t("experiences.exp2.5"),
-        t("experiences.exp2.6"),
-        t("experiences.exp2.7"),
-        t("experiences.exp2.8"),
-        t("experiences.exp2.9"),
       ],
     },
     {
@@ -352,10 +347,6 @@ export const createExperiences = () => {
         t("experiences.exp3.1"),
         t("experiences.exp3.2"),
         t("experiences.exp3.3"),
-        t("experiences.exp3.4"),
-        t("experiences.exp3.5"),
-        t("experiences.exp3.6"),
-        t("experiences.exp3.7"),
       ],
     },
   ];
