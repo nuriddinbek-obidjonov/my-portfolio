@@ -34,7 +34,7 @@ function ProjectDetails({
               {item}
             </p>
           ))}
-          <div className="flex justify-between items-center mt-4">
+          <div className="flex justify-between items-center mt-5 sm:mt-7 md:mt-10">
             <div className="flex gap-3">
               {tags.map((tag) => (
                 <img
