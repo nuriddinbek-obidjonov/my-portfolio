@@ -299,7 +299,7 @@ export const createProjects = () => {
 export const mySocials = [
   {
     name: "Telegram",
-    href: "https://t.me/nuriddinbek_1/",
+    href: "https://t.me/nuriddinbek_obidjonov/",
     icon: "/assets/socials/telegram.svg",
   },
   {
