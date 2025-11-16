@@ -304,7 +304,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/nuriddinbek/",
+    href: "https://www.linkedin.com/in/nuriddinbek-obidjonov/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
